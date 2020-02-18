@@ -1,0 +1,236 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+header{
+    padding: 40px;
+    text-align: center;
+    background-image: linear-gradient(0deg, #328cc3, rgba(55, 70, 80, .4));
+    background-color: #328cc3;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0px 1px 4px #000000c9;
+}
+
+h1{
+    font-size: 40px;
+    width: 65%;
+}
+
+#header-main-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-img{
+    height: 300px;
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 50px;
+    transform: translate(0%, 25%);
+}
+
+.controls-text{
+    font-size:20px;
+}
+
+.controls-panel{
+    padding: 15px;
+}
+
+.quick-start-button{
+    display: inline-block;
+    width: 150px;
+    font-size: 15px;
+    color: #555566;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #393e5b;
+
+    cursor: pointer;
+    user-select: none;
+    margin: 5px;
+    transition: all 0.2s ease-out;
+}
+
+.quick-start-button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 8px 0px #0000003f;
+}
+
+.quick-start-button > p{
+    margin: 0;
+}
+
+.button-img{
+    width: 80px;
+    height: 70px;
+}
+
+#chart-img{
+    transform: translate(-10%,-10%);
+}
+
+.main-content{
+    padding: 20px 10%;
+    font-family: 'Roboto', sans-serif;
+    color: #555544;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.two-col{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.two-col-1{
+
+    width:50%
+}
+
+.two-col-2{
+    text-align: center; 
+    width: 50%;
+}
+
+.content-img{
+    height: 400px;
+    margin-top: 50px;
+}
+
+.course-container{
+    text-align: center;
+    color: #fff;
+    background-color: #068c57;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filter-button{
+    padding: 5px;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    color: #555544;
+    margin: 10px 15px;
+    position: relative;
+    box-shadow: 0 0 3px #00000088;
+    cursor: pointer;
+}
+
+.filter-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+
+.filter-button:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.filter-button input:checked ~ .checkmark {
+    background-color: #328cc3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.filter-button input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.filter-button .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.course-grid{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.course{
+    background-color: #fff;
+    color: #444455;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    max-width: 400px;
+    min-width: 400px;
+    border-top: 10px #328cc3 solid;
+    box-shadow: 1px 1px 8px #000000a6;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.course-icon{
+    text-align: center;
+    height: 130px;
+    margin-top: 10px
+}
+
+.course-title{
+    font-weight: bold;
+    text-align: left;
+}
+
+.course-description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.course-time{
+    text-align: right;
+    font-size: 15px;
+    color: #777788;
+}
+
+.btn-start-course{
+    background-color: #328cc3;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
