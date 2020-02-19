@@ -77,11 +77,10 @@ h1{
 }
 
 .main-content{
-    padding: 20px 10%;
+    padding: 20px 10% 60px 10%;
     font-family: 'Roboto', sans-serif;
     color: #555544;
     font-size: 20px;
-    margin-bottom: 40px;
 }
 
 .two-col{
@@ -108,7 +107,8 @@ h1{
 .course-container{
     text-align: center;
     color: #fff;
-    background-color: #068c57;
+    background-image: linear-gradient(0deg, rgba(55, 70, 80, .4), #328cc3);
+    background-color: #328cc3;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -193,7 +193,7 @@ h1{
     text-align: left;
     max-width: 400px;
     min-width: 400px;
-    border-top: 10px #328cc3 solid;
+    border-top: 10px #57baec solid;
     box-shadow: 1px 1px 8px #000000a6;
     text-align: center;
     margin-right: 30px;
@@ -215,6 +215,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     text-align: left;
+    min-height: 55px;
 }
 
 .course-time{
@@ -224,6 +225,7 @@ h1{
 }
 
 .btn-start-course{
+    display: block;
     background-color: #328cc3;
     color: #fff;
     padding: 8px 15px;
@@ -233,4 +235,14 @@ h1{
     margin-top: 25px;
     margin-bottom: 5px;
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+.btn-start-course:hover{
+
+    background-color:#328cc3;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px 0px #0000003f;
 }

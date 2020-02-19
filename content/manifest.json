@@ -1,0 +1,52 @@
+{
+    "manifest-version": "1.0",
+    "courses": [
+        {
+            "id": "basic-contact-management",
+            "title": "Basic Contact Management",
+            "copy": "Let's take a look at the heart of any CRM software, the Contacts section. In this course, you'll learn how to create, manage and interact with the contacts in your Act! Database.",
+            "steps":[
+                {
+                    "stepNum": 1,
+                    "type": "video",
+                    "title": "Discovering the Basics",
+                    "data":{
+                        "src": "http://stream.act.com/v20/act201-discoveringthebasics.mp4",
+                        "title": "Discovering the Basics",
+                        "copy": "Introducing the Act! Contact record, discover how to best navigate the Contacts section of Act!"
+                    }
+                },
+                {
+                    "stepNum": 2,
+                    "type": "video",
+                    "title": "Take Notes, This is Important",
+                    "data":{
+                        "src": "http://stream.act.com/v21/act210-creatinganote.mp4",
+                        "title": "Creating a Note",
+                        "copy": "Now that we've learned how to navigate around the Contact record - let's look at adding notes so we can keep tabs on our contacts."
+                    }
+                },
+                {
+                    "stepNum": 3,
+                    "type": "video",
+                    "title": "Making History",
+                    "data":{
+                        "src": "http://stream.act.com/v21/act210-creatinghistoryrecordsandviewingthehistorylist.mp4",
+                        "title": "Creating History Records and Viewing the History List",
+                        "copy": "Recording the interactions we have with our customers is the most important duty of a CRM, let's explore how Act! makes it easy to make history."
+                    }
+                },
+                {
+                    "stepNum": 3,
+                    "type": "video",
+                    "title": "A Documented Success",
+                    "data":{
+                        "src": "http://stream.act.com/v21/act210-addingadocument.mp4",
+                        "title": "Adding a Document",
+                        "copy": "Let's look at attaching external files to our database, from invoices to images - keeping everything in one place means you can organize with ease."
+                    }
+                }
+            ]
+        }
+    ]
+}
