@@ -13,9 +13,18 @@
 </head>
 <body>
     <header class="header-content">
-        <a href="../">&lt;&lt; &nbsp; Back to all courses</a>
-        <h1 class="course-title"></h1>
+        <a class="back-link" href="../">&lt;&lt; &nbsp; Back to all courses</a>
+        <div class="course-data">
+            <h1 class="course-title"></h1>
+            <p class="course-description"></p>
+        </div>
+        <div class="course-img-container">
+            <img class="course-icon"/>
+        </div>
     </header>
+    <div class="error-content">
+        <h1 class="error-message"></h1>
+    </div>
     <div class="main-content">
         <div class="current-content">
             <div class="video-container"></div>
@@ -23,14 +32,16 @@
                 <h2 class="video-title"></h2>
                 <p class="video-copy"></p>
             </div>
+            <div class="next-module-btn">Next >>></div>
         </div>
         <div class="sidebar">
-            <h2 class="course-modules">Course Module &nbsp;<span class="current-step-num"></span>/<span class="total-steps"></span></h2>
+            <h2 class="course-modules">&nbsp;Course Module &nbsp;<span class="current-step-num"></span> of <span class="total-steps"></span></h2>
             <div class="steps-container"> 
             </div>
             <div class="progress-container">
                 <div class="meter">
-                    <span class="percent-completion" ></span>
+                    <p class="percent-text">0%</p>
+                    <span class="percent-completion"></span>
                 </div>
             </div>
         </div>

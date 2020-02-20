@@ -4,7 +4,10 @@
         {
             "id": "basic-contact-management",
             "title": "Basic Contact Management",
+            "summary": "Explore the Contacts section at the heart of Act! Learn to create, edit and manage contacts.",
             "copy": "Let's take a look at the heart of any CRM software, the Contacts section. In this course, you'll learn how to create, manage and interact with the contacts in your Act! Database.",
+            "icon": "content/icons/contact.png",
+            "estTime": "~20 minutes",
             "steps":[
                 {
                     "stepNum": 1,
@@ -37,7 +40,7 @@
                     }
                 },
                 {
-                    "stepNum": 3,
+                    "stepNum": 4,
                     "type": "video",
                     "title": "A Documented Success",
                     "data":{
@@ -47,6 +50,122 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "advanced-contact-management",
+            "title": "Advanced Contact Management",
+            "summary": "We take a deeper dive into the features available for managing contacts.",
+            "copy": "We take a deeper dive into the features available for managing contacts.",
+            "icon": "content/icons/talk.png",
+            "estTime": "~25 minutes",
+            "steps":[
+                {
+                    "stepNum": 1,
+                    "type": "video",
+                    "title": "Using the Web Info Tab",
+                    "data":{
+                        "src": "http://stream.act.com/v21/act210-usingthewebinfotab.mp4",
+                        "title": "Using the Web Info Tab",
+                        "copy": "Monitor your contacts activities on the internet - from right inside Act! Customizable web links that dynamically use your data will help you look things up fast."
+                    }
+                },
+                {
+                    "stepNum": 2,
+                    "type": "video",
+                    "title": "Default History Results",
+                    "data":{
+                        "src": "http://stream.act.com/v20/act201-defaulthistoryresults.mp4",
+                        "title": "Default History Results",
+                        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis in lorem luctus molestie. Phasellus elementum suscipit iaculis. Maecenas rhoncus diam at pulvinar malesuada. Sed egestas arcu sit amet urna eleifend accumsan."
+                    }
+                },
+                {
+                    "stepNum": 3,
+                    "type": "video",
+                    "title": "Performing Lookups",
+                    "data":{
+                        "src": "http://stream.act.com/v21/act210-creatinghistoryrecordsandviewingthehistorylist.mp4",
+                        "title": "Performing Lookups",
+                        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis in lorem luctus molestie. Phasellus elementum suscipit iaculis. Maecenas rhoncus diam at pulvinar malesuada. Sed egestas arcu sit amet urna eleifend accumsan."
+                    }
+                },
+                {
+                    "stepNum": 4,
+                    "type": "video",
+                    "title": "Creating Lookups From Universal Search",
+                    "data":{
+                        "src": "http://stream.act.com/v20/act201-creatinglookupsfromuniversalsearch.mp4",
+                        "title": "Creating Lookups From Universal Search",
+                        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis in lorem luctus molestie. Phasellus elementum suscipit iaculis. Maecenas rhoncus diam at pulvinar malesuada. Sed egestas arcu sit amet urna eleifend accumsan."
+                    }
+                },
+                {
+                    "stepNum": 5,
+                    "type": "video",
+                    "title": "Favorite Act! Contacts",
+                    "data":{
+                        "src": "http://stream.act.com/v20/act201-favoriteactcontacts.mp4",
+                        "title": "Favorite Act! Contacts",
+                        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis in lorem luctus molestie. Phasellus elementum suscipit iaculis. Maecenas rhoncus diam at pulvinar malesuada. Sed egestas arcu sit amet urna eleifend accumsan."
+                    }
+                },
+                {
+                    "stepNum": 6,
+                    "type": "video",
+                    "title": "Importing Records",
+                    "data":{
+                        "src": "http://stream.act.com/v22/apc220-importingrecords.mp4",
+                        "title": "Importing Records",
+                        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis in lorem luctus molestie. Phasellus elementum suscipit iaculis. Maecenas rhoncus diam at pulvinar malesuada. Sed egestas arcu sit amet urna eleifend accumsan."
+                    }
+                },
+                {
+                    "stepNum": 7,
+                    "type": "video",
+                    "title": "Importing From a CSV File",
+                    "data":{
+                        "src": "http://stream.act.com/v21/act211-importingfromacsvfile.mp4",
+                        "title": "Importing From a CSV File",
+                        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis in lorem luctus molestie. Phasellus elementum suscipit iaculis. Maecenas rhoncus diam at pulvinar malesuada. Sed egestas arcu sit amet urna eleifend accumsan."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "how-to-contact-your-contacts",
+            "title": "How to Contact Your Contacts",
+            "summary": "Explore the different ways Act! helps you keep in touch with the most important people in your business, your customers.",
+            "copy": "Explore the different ways Act! helps you keep in touch with the most important people in your business, your customers.",
+            "icon": "content/icons/plant.png",
+            "estTime": "~40 minutes",
+            "steps":[                {
+                "stepNum": 1,
+                "type": "video",
+                "title": "Using the Web Info Tab",
+                "data":{
+                    "src": "http://stream.act.com/v21/act210-usingthewebinfotab.mp4",
+                    "title": "Using the Web Info Tab",
+                    "copy": "Monitor your contacts activities on the internet - from right inside Act! Customizable web links that dynamically use your data will help you look things up fast."
+                }
+            }]
+        },
+        {
+            "id": "controlling-contact-access",
+            "title": "Controlling Contact Access",
+            "summary": "We teach you how to exercise perfect control over your data's security. Determine what data users can see, and what actions they can take.",
+            "copy": "We teach you how to exercise perfect control over your data's security. Determine what data users can see, and what actions they can take.",
+            "icon": "content/icons/communicate.png",
+            "estTime": "~40 minutes",
+            "steps":[                {
+                "stepNum": 1,
+                "type": "video",
+                "title": "Using the Web Info Tab",
+                "data":{
+                    "src": "http://stream.act.com/v21/act210-usingthewebinfotab.mp4",
+                    "title": "Using the Web Info Tab",
+                    "copy": "Monitor your contacts activities on the internet - from right inside Act! Customizable web links that dynamically use your data will help you look things up fast."
+                }
+            }]
         }
     ]
 }
